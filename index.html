@@ -1,8 +1,86 @@
+<!doctype html>
 <html>
   <head>
-    <title>Merhaba Dünya</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>My project Duygu by sduyg</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
-<body>
-  <a href="www.google.com">Google</a>
-</body>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/sduyg/my_project_sduyg">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/sduyg/my_project_sduyg/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/sduyg/my_project_sduyg/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>My project Duygu</h1>
+          <p>deneme </p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/sduyg">sduyg</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h3>
+<a name="github-sayfama-ho%C5%9F-geldiniz-" class="anchor" href="#github-sayfama-ho%C5%9F-geldiniz-"><span class="octicon octicon-link"></span></a><h2>
+<a name="github-sayfama-ho%C5%9F-geldiniz" class="anchor" href="#github-sayfama-ho%C5%9F-geldiniz"><span class="octicon octicon-link"></span></a>GitHub Sayfama Hoş Geldiniz</h2> <br>
+</h3>
+
+<p>GİTHUB NEDİR ? <br>
+    Yazılım geliştirme sektöründe GitHub , her ne kadar değeri henüz bilinmese de oldukça gerekli ve iş takibi için gayet kullanışlı bir yazılım + websitesi dir. Bir yazılım geliştirme yolcusu için öğrenmesi gereken bir programdır. 
+    Kimi yorumculara göre GitHub, developerların facebook hesabı gibi olmuştur. 
+    GitHub henüz Türkiye'de sektörler tarafından henüz pek bilinmese veya kullanılmasa da ileride yaygınlaşacağı, hatta ileriki seviyeler de belki de şirketlerin zorunlu bir programı haline gelebilecektir. GitHub ileri düzey zamanına geldiğinde bu GitHub yazılımcılarının yani bunu geliştirenlerin de programı ve siteyi güncel tutmaları, zaman zaman değişiklik yapmaları gerekecektir. </p>
+
+<p>Örnek bir projede değişik dosyalar üzerinde sürekli çalıştığınızı varsayalım. Karşılaşacağımız sorunlar bir makalede şöyle sıralanmış:</p>
+
+<ul>
+<li><p>Bir yerden sonra yaptığınız değişikliğin hatalı olduğunu farkederseniz ne yaparsınız ? <br></p></li>
+<li><p>Yanlışlıkla bir dosyayı sildiyseniz o dosyayı nasıl geri getirebilirsiniz ? ( Ctrl+F ile de geri dönülemez bir noktada iseniz )<br></p></li>
+<li><p>Birden çok kişinin üzerinde değişiklik yaptığı bir klasörde kimin neyi nasıl değiştirdiğini, tüm bir kodun hangi satırında ne değişiklik yaptığını görmek isterseniz? <br></p></li>
+<li><p>İşte tüm bu sorunların çözümü GitHub'da. Peki GitHub nasıl çalışıyor. Öncelikle sözel bir örnek verelim daha sonra GitHub nasıl kurulur nasıl çalışır o'na bakarız. <br>
+Şöyle ki; <br></p></li>
+</ul><p>Bir web sitesi projesi üzerinde çalıştığınızı düşünün. Bu projede çalışan 4 tane developer ve bir tane de takım lideri olsun. Ve projenizde 800 satır kod olsun ve bu 4 yazılımcımızda bu proje üzerinde farklı geliştirmeler yapıyor olsun.<br></p>
+
+<p>1.Yazılımcı; 1 ile 199′uncu satır arasında;<br>
+2.Yazılımcı; 200 ile 399′uncu satır arasında;<br>
+3.Yazılımcı; 400 ile 599′uncu satır arasında;<br>
+4.Yazılımcı; 600 ile 800′üncü satır arasında;  çalışıyor olsunlar.<br></p>
+
+<p>Bu arkadaşlar kodları yazdıkça\değiştirdikçe yazılımcıların işlerini kontrol edecek olan takım lideriniz hangi birinizi nasıl takip edecek. ? Şimdi bu gibi sorunların çaresi olan GitHub'ın bu sorun karşısında neler yapabileceğini anlatalım:<br>
+Öncelikle GitHub.com 'dan bir hesap oluşturuluyor. Ve sizin hesabınızda bulunan projeniz oluyor. ( Respository ) <br>
+    Mesela benim deneme.proje isimli bir repository'm olsun. Siz bu respository yi önce Fork edersiniz. Fork etmek demek , benim projemin artık sizin hesabınızdaki klasörde de olması demektir. Daha sonra bu Fork ladığınız projeyi git üzerinden Clone edebilir yani kendi bilgisayarınıza indirebilirsiniz. <br>
+    Sonra bunu değiştirip tekrar git'e göndermek istediğinizde git status dediğinizde; bilgisayarınızdaki klasörünüzde değişen/silinen vs. olan dosyaları görürsünüz.  Ardından git commit -m 'açıklayıcı bilgi giriliyor' der ve sonra git pushmas enter yapıldıktan sonra bilgisayarınızdaki değişen/silinen veya eklemeler yapılan dosyayı git'deki hesabınıza göndermiş olursunuz. Ki buna da "push" denir. <br></p>
+
+<p>Bu gönderdiğiniz dosya az önce de belirttiğimiz gibi kendi hesabınıza gider. Yani Benim hesabımda görünmez. Benim görebilmem için siz kendi hesabınızda iken "pull request" yaparsınız. Ve "New Pull Request" yaparak açıklamanızı girersiniz. Ve böyle benim hesabıma da gelmiş olur. 
+Ya da benim hesabımdaki bir klasörü siz kendi hesabınıza almadan direk kendi bilgisayarınıza indirmek isterseniz indirmek istediğiniz projeye gelerek sağ altta yer alan "clone in desktop" a tıklayarak bunu yapabilirsiniz. Bu işleme de "pul etmek" denir.<br></p>
+
+<p>Şöyle de bir ayrıntıyı atlamayalım. Eğer ben bakıp bir yerde değişiklik yapmanızı istersem o satırın altına satırın sol tarafında bulunan kısımdan yorum ekleyebilir, siz de bunu görerek tekrar aynı işlemleri gerçekleştirerek bunu düzeltebilirsiniz. <br></p>
+
+<pre><code>Bir de yukarıda "git" diye bir durumdan da bahsediyoruz. Bu bahsettiğimiz git, yani GitHub'ın yazılım versiyonu, nda yukarıdaki kodları kullanarak kaydetme, dosya gönderme, ekleme, değişiklik görme gibi işlemler yapılıyor. Bu işlemleri yapmak için önce git i bilgisayarınıza kurmanız gerekiyor. GitHub.com da "set up git" e tıklıyoruz ve buradan bilgisayarınıza git i kuruyorsunuz. Ve git pushmas, git commit  gibi kodları bu çalıştırdığımız siyah ekranda giriyoruz.&lt;br&gt;
+
+GitHub üzerinden ayrıca sadece projeleri değerlendirmek veya paylaşmak gibi işlemlerin dışında ayrıca blog açabilir. Kendinize ait projelerinizi veya bir proje ile ilgili fikirlerinizi bu platform üzerinden de yazabilir, paylaşabilirsiniz.&lt;br&gt;
+</code></pre>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
 </html>
